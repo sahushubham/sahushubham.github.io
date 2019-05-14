@@ -1,0 +1,309 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+.header1{
+	background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("Me.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.header2{
+	background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("education.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.header3{
+	background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("Hobby.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.header4{
+	background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("Contact.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.header5{
+	background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("Achievement.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ .main{
+	max-width: 1250px;
+
+}
+.disp img{
+	display: none;
+}
+.top-nav{
+	position: relative;
+	top: 40px;
+	font-size: 30px;
+	padding: 0px;
+	float: right;
+	display: inline-block;
+	
+}
+.top-nav a{
+		text-decoration: none;
+		color: white;
+		padding: 10px 30px;
+		border: 2px solid #fff;
+	}
+.top-nav a:hover{
+	font-size: 30px;
+	color: black;
+	padding: 10px 30px;
+	border: 2px solid #fff;
+	background-color: white;
+
+}
+
+.border{
+	padding: 10px;
+	width: 540px;
+	height: auto;
+	font-size: 30px ;
+	color: white;
+	border: 5px solid wheat;
+	position: absolute;
+	left: 70.5%;
+	top:85%;
+	transform: translate(-50%,-50%);
+}
+.border2{
+	padding: 10px;
+	width: 670px;
+	height: auto;
+	font-size: 30px ;
+	color: white;
+	border: 5px solid wheat;
+	position: absolute;
+	left: 5%;
+	top:70%;
+}
+.border3{
+	padding: 25px;
+	width: auto;
+	height: auto;
+	font-size: 30px ;
+	color: white;
+	border: 5px solid wheat;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+
+.border4{
+	padding: 15px;
+	width: 560px;
+	height: auto;
+	font-size: 30px ;
+	color: white;
+	border: 5px solid white;
+	position: absolute;
+	left: 45%;
+	top:75%;
+}
+
+.border5{
+	padding: 10px 10px 0px 10px;
+	height: 60px;
+	width: auto;
+	text-align: center;
+	font-size: 30px ;
+	color: white;
+	border: 2.5px solid black;
+	position: absolute;
+	left: 55%;
+	top:60%;
+	background-color: grey;
+}
+.border6 {
+	padding: 10px;
+	width: 500px;
+	height: auto;
+	font-size: 30px ;
+	color: white;
+	border: 5px solid white;
+	position: absolute;
+	left: 70.5%;
+	top:85%;
+	transform: translate(-50%,-50%);
+	background-color: "yellow";
+}
+.para a{
+	font-size: 35px ;
+	color: white;
+	transition: .5s ease;
+}
+
+.para a:hover{
+	font-size: 37px;
+	color: yellow;
+}
+
+
+@media screen and (max-width: 980px)
+{
+	.header1
+	{
+		background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("Me3.jpg");
+	}	
+	.header2
+	{
+		background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("education2.jpg");
+	}
+	.header5
+	{
+		background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("Achievement2.jpg");
+	}
+	/* Style the top navigation bar */
+.top-nav {
+  position: relative;
+  top: 0px;
+  overflow: hidden;
+  background-color: #333;
+  transition: 0.6s ease;
+}
+/* Style the topnav links */
+.top-nav a {
+  float: left;
+  font-size: 20px;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  border: 0px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.top-nav a:hover {
+  background-color: #ddd;
+  font-size: 20px;
+  color: black;
+  border: 0px;
+}
+
+@media screen and (max-width: 980px)
+{
+	.header1
+	{
+		background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("Me3.jpg");
+	}	
+		.header2
+	{
+		background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("education2.jpg");
+	}	
+	/* Style the top navigation bar */
+.top-nav {
+  position: relative;
+  top: 0px;
+  overflow: hidden;
+  background-color: #333;
+  transition: 0.6s ease;
+}
+/* Style the topnav links */
+.top-nav a {
+  float: left;
+  font-family: arial;
+  font-size: 20px;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  border: 0px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.top-nav a:hover {
+	font-family: arial;
+  background-color: #ddd;
+  font-size: 20px;
+  color: black;
+  border: 0px;
+}
+
+	.border{
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	color: white;
+	border: 3px solid wheat;
+	position: relative;
+	top: 60vh;
+	left: 0vh;
+	transform: none;
+
+	}
+	.border2{
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	color: white;
+	border: 3px solid white;
+	top: 50vh;
+	left: 0vw;
+	transform: none;
+	}
+	.border3{
+		padding: 20px;
+		width: 100%;
+		background-color: rgba(0,0,0,.3);
+		height: auto;
+		color: #f0f0f0;
+		border: 3px solid skyblue;
+		top: 80vh;
+	}
+
+.border4{
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	color: white;
+	border: 5px solid white;
+	position: absolute;
+	top: 80vh;
+	left: 0vw;
+}
+
+.border5{
+	padding: 10px 10px 0px 10px;
+	height: auto;
+	width: auto;
+	text-align: center;
+	font-size: 30px ;
+	color: white;
+	border: 2.5px solid black;
+	position: absolute;
+	left: 10vw;
+	top:60vh;
+	background-color: grey;
+}
+.border6 {
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	color: white;
+	border: 5px solid white;
+	position: absolute;
+	transform: none;
+	top: 80vh;
+	left: 0vw;
+}
+
+}
