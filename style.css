@@ -172,12 +172,7 @@ img{
 	}
 	/* Style the top navigation bar */
 /* Change color on hover */
-.top-nav a:hover {
-  background-color: #ddd;
-  font-size: 30px;
-  color: black;
-  border: 0px;
-}
+
 
 .top-nav {
   position: relative;
@@ -197,6 +192,12 @@ img{
   border: 0px;
   padding: 14px 16px;
   text-decoration: none;
+}
+.top-nav a:hover {
+  background-color: #ddd;
+  font-size: 30px;
+  color: black;
+  border: 0px;
 }
 	.border{
 	padding: 0px;
