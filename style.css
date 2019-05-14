@@ -194,10 +194,15 @@ img{
   text-decoration: none;
 }
 .top-nav a:hover {
-  background-color: #ddd;
-  font-size: 30px;
+	float: left;
+	font-size: 30px;
+   display: block;
   color: black;
+  background-color: #ddd;
+  text-align: center;
   border: 0px;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 	.border{
 	padding: 0px;
