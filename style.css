@@ -199,7 +199,11 @@ img{
 }
 
 @media screen and (max-width: 980px)
-{	
+{
+	.header1
+	{
+		background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("Me3.jpg");
+	}	
 		.header2
 	{
 		background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("education2.jpg");
@@ -240,8 +244,8 @@ img{
 	height: auto;
 	color: white;
 	border: 3px solid wheat;
-	position: relative;
-	top: 60vh;
+
+	top: 90vh;
 	left: 0vh;
 	transform: none;
 
