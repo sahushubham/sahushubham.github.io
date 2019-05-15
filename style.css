@@ -89,6 +89,7 @@ img{
 	font-size: 30px ;
 	color: white;
 	border: 5px solid wheat;
+	background-color: rgba(0,0,0,.6);
 	position: absolute;
 	left: 5%;
 	bottom: 20%;
@@ -138,11 +139,11 @@ img{
 	font-size: 30px ;
 	color: white;
 	border: 5px solid white;
+	background-color: rgba(0,0,0,.6);
 	position: absolute;
 	left: 70.5%;
 	top:85%;
 	transform: translate(-50%,-50%);
-	background-color: "yellow";
 }
 .para a{
 	font-size: 35px ;
