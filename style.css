@@ -91,7 +91,7 @@ img{
 	border: 5px solid wheat;
 	position: absolute;
 	left: 5%;
-	top:70%;
+	bottom: 20%;
 }
 .border3{
 	padding: 25px;
@@ -102,7 +102,7 @@ img{
 	border: 5px solid wheat;
 	position: absolute;
 	left: 50%;
-	top:50%;
+	bottom: 40%;
 	transform: translate(-50%,-50%);
 }
 
@@ -179,7 +179,7 @@ img{
   top: 0px;
   font-size: 30px;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(0,0,0,.8);
   transition: 0.6s ease;
 }
 /* Style the topnav links */
@@ -218,34 +218,39 @@ img{
 	}
 	.border2{
 	padding: 0px;
-	width: 100%;
+	width: auto;
 	height: auto;
 	color: white;
 	border: 3px solid wheat;
+	background-color: rgba(0,0,0,.6);
+	padding: 0px 5px;
 	position: absolute;
-	top: 80vh;
-	left: 0vh;
+	bottom:  10vh;
+	left: 0vw;
+	text-align: center;
 	transform: none;
 	}
 	.border3{
 		padding: 20px;
-		width: 100%;
+		width: auto;
 		background-color: rgba(0,0,0,.3);
 		height: auto;
 		color: #f0f0f0;
 		border: 3px solid skyblue;
-		top: 80vh;
+		bottom: 10vh;
+		left: 5vw;
+		transform: none;
 	}
 
 .border4{
 	padding: 0px;
-	width: 100%;
+	width: auto;
 	height: auto;
 	color: white;
 	border: 5px solid white;
 	position: absolute;
 	top: 80vh;
-	left: 0vw;
+	left: 2vw;
 }
 
 .border5{
@@ -263,14 +268,16 @@ img{
 }
 .border6 {
 	padding: 0px;
-	width: 100%;
+	width: auto;
 	height: auto;
 	color: white;
 	border: 5px solid white;
+	background-color: rgba(0,0,0,.6);
 	position: absolute;
+	text-align: center;
 	transform: none;
 	top: 80vh;
-	left: 0vw;
+	left: 5vw;
 }
 
 }
