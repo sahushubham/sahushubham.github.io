@@ -79,7 +79,7 @@ img{
 	border: 5px solid wheat;
 	position: absolute;
 	left: 70.5%;
-	top:85%;
+	bottom: 10%;
 	transform: translate(-50%,-50%);
 }
 .border2{
