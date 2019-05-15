@@ -249,7 +249,7 @@ img{
 	color: white;
 	border: 5px solid white;
 	position: absolute;
-	top: 80vh;
+	top: 70vh;
 	left: 2vw;
 }
 
@@ -262,7 +262,7 @@ img{
 	color: white;
 	border: 2.5px solid black;
 	position: absolute;
-	left: 10vw;
+	left: 15vw;
 	top:60vh;
 	background-color: grey;
 }
