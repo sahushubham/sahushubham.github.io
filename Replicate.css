@@ -1,0 +1,490 @@
+.white
+{
+	position: relative;
+	top:0px;
+	width: 100%;
+	height: 145px;
+	background-color: #fff;
+
+}
+.white_max_width{
+	width: 990px;
+	height: 145px;
+	margin:auto;
+}
+.logo_top{
+	position: absolute;
+	top: 55px;
+}
+.logo_second{
+	position: absolute;
+	top:40px;
+}
+.right_logo{
+	position: absolute;
+	right: 180px;
+	bottom: -3px;
+}
+.red{
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 370px;
+	background-color: #d83230;
+	padding-top: 10px; 
+}
+.sign_in_container{
+	position: relative;
+	background-color: #d83230;
+	width: 990px;
+	max-width: 1020px;
+	margin: auto;
+	height: 360px;
+	color: white;
+}
+
+.welcome_{
+	font-size: 20px;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	color: white;
+	line-height: 15px;
+}
+.sign_in{
+	font-size: 36px;
+	font-family: BrandonText-Medium,Arial,sans-serif;
+	line-height: 25px;
+	margin: 13px 0 15px;
+}
+.login{
+	width: 280px;
+	height: 240px;
+	float: left;
+	padding: 15px 20px 10px;
+	background-color: #ad2826;
+}
+.white_box{
+	background-color: white;
+	position: absolute;
+	width: 265px;
+	margin: auto;
+	color: #aaa;
+}
+.remember{
+	position: absolute;
+		color: white;
+		left: 55px;
+		width: auto;
+		top: 180px;
+		font-family: arial;
+}
+.recommend{
+	position: absolute;
+	left: 55px;
+	top: 195px;
+	font-size: 10px;
+
+}
+.sign_in2 {
+    position: absolute;
+    left: 20px;
+    width: 240px;
+    height: 45px;
+    top: 215px;
+    background: #F28005;
+    font-family: BrandonText-Bold,Arial,sans-serif;
+    font-size: 30px;
+}
+.sign_in2 :hover{
+	background-color: #F28005;
+}
+
+.entry1{	
+	position: absolute;
+	left: 330px;
+	bottom: 25px;
+	width: 325px;
+	height: 187px;
+	background: #ad2826;
+}
+.entry1-enter{
+	background:#14bcef;
+	height: 45px;
+	line-height: 45px;
+	display: inline-block;
+	margin: 14px 25px 29px;
+	position: relative;
+	text-transform: none;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	width: 273px;
+	font-family: Arial,sans-serif;
+	position: relative;
+	top: 30px;
+}
+.entry1-enter a{
+	text-decoration: none;
+	color: #fff;
+}
+.entry1-enter:hover{
+	background: #3FB0EB;
+}
+.entry2-enter{
+	background: #f28005;;
+	height: 45px;
+	line-height: 45px;
+	display: inline-block;
+	margin: 14px 25px 29px;
+	position: relative;
+	text-transform: none;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	width: 273px;
+	font-family: Arial,sans-serif;
+	position: relative;
+	top: 30px;
+}
+
+.entry2-enter a{
+	text-decoration: none;
+	color: #fff;
+}
+.entry2-enter:hover{
+	background-color: #f64f1c;
+}
+.entry2{	
+	position: absolute;
+	right: 0px;
+	bottom: 25px;
+	width: 325px;
+	height: 187px;
+	background-color: #ad2826;
+}
+
+.transparent{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 20px;
+	background: #ad2826; 
+}
+.signin{
+	position: absolute;
+	bottom: 95px;
+	left: 20px;
+	width: 280px;
+	height: 45px;
+	font-size: 18px;
+	font-family: BrandonText-Bold,Arial,sans-serif;
+	line-height: .8;
+	text-align: center;
+	background: #f37f04;
+
+}
+.signin:hover{
+	background: #f64f1c;
+}
+.first_time {
+    font-size: 36px;
+    font-family: BrandonText-Medium,Arial,sans-serif;
+    position: relative;
+    left: 180px;
+    bottom: 0px;
+}
+.teachers{
+    font-family: BrandonText-Medium,Arial,sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+	top: 35px;
+}
+
+.skyblue{
+	position: relative;
+	top: 3px;
+	width: 100%;
+	height: 432px;
+	background: #3abaac url("blueback.jpg");
+}
+.write{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	margin: 0px;
+	padding: 22px 0px 3px 0px;
+	font-family: BrandonText-Regular, Arial, sans-serif;
+}
+.imag{
+	position: absolute;
+	left: 200px;
+	padding: 10px 0px 3px 0px;
+}
+
+.imag2{
+	position: absolute;
+	right:  150px;
+	padding: 10px 0px 3px 0px;
+}
+.main{
+	width: 100%;
+}
+.head{
+    color: #d83230;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 36px;
+    font-family: BrandonText-Regular, Arial, sans-serif;
+}
+.container{
+	max-width: 1000px;
+	max-height: 300px;
+	margin: auto;
+
+}
+.pic{
+	width: 225px;
+	height: 145px;
+	float: left;
+	margin: 30px 10px;
+}
+.container2{
+	width: 225px;
+	color: #D73131;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	position: relative;
+	top: 5px;
+	float: left;
+	text-align: center;
+}
+.text{
+	width: 225px;
+	color: #3a3a3a;
+	font-size: 18px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	line-height: 1.285;
+	float: left;
+	margin-top: 15px;
+}
+.text-con{
+	width: 1000px;
+	margin: auto;
+	clear: both;
+}
+.element1 {
+    color: #d83230;
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-family: BrandonText-Regular, Arial, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+.img-con{
+	background-color: #F4F1EA;
+	clear: both;
+	height: 490px;
+}
+.pic1{
+	max-width: 640px;
+	height: 360px;
+	float: left;
+	padding: 0px 10px 0px 0px
+}
+.scroll{
+	background: #fff;
+	width: 300px;
+	height: 360px;
+	margin: 7px;
+	border: 1px solid #aaaaaa;
+	overflow-y: scroll;
+}
+.scroll-con{
+	height: 68px;
+	margin-bottom: 17px;
+	margin: 10px;
+}
+.scroll-img{
+	float: left;
+}
+.scroll-text{
+	overflow: auto;
+	height: auto;
+	text-align: left;
+	line-height: 17px;
+	font-weight: 700;
+	color: #000;
+	font-size: 14px;
+	padding: 0px 15px 0px 15px;
+	margin-top: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.exclusive{
+	width: 1020px;
+	margin: auto;
+	
+}
+
+.exclusive h2{
+	color: #d83230;
+	font-size: 36px;
+	font-weight: 400;
+	font-family: BrandonText-Regular, Arial, sans-serif;
+	margin-top: 42px;
+	margin-bottom: 22px;
+	text-align: center;
+}
+
+.itemleft{
+	display: inline-block;
+	margin-left: 0px;
+	width: 25%;
+	height: auto;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	position: relative;
+	border-right: 1px solid #d83230;
+	border-left: 1px solid #d83230;
+	text-align: center;
+}
+
+.exclusive a{
+	font-family: BrandonText-Regular, sans-serif;
+	color: #3a3a3a;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	text-decoration: none;
+}
+.itemmiddle{
+	display: inline-block;
+	width: 23%;
+	height: auto;
+	border: 1px solid transparent;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	font-family: BrandonText-Regular, Arial, sans-serif;
+	position: relative;
+	border-right: 1px solid #d83230;
+	text-align: center;
+}
+.letsread{
+		height: auto;
+		display: inline-block;
+		width: 100%;
+		margin-top: 10px;
+		padding-bottom: 30px;
+}
+.letsread h2{
+	font-family: BrandonText-Regular, Arial, sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	text-align: center;
+	color: #D73131;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: BrandonText-Regular, Arial, sans-serif;
+}
+.teacherleft{
+	width: 49%;
+
+	font-family: BrandonText-Medium,Arial,sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-align: center;
+}
+.box-main{
+	width: 990px;
+	margin: auto;
+}
+.box{
+	line-height: 45px;
+	display: inline-block;
+    margin-top: 14px;
+    position: relative;
+    text-transform: none;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+	color: #fff;
+	font-weight: 700;
+}
+
+.footer-element{
+	font-size: 14px;
+	letter-spacing: 0;
+	display: table-cell;
+	padding: 17px 20px 0;
+	width: 245px;
+	border-right: 4px solid #fff;
+	background: #F4F1EA;
+}
+.footer-heading{
+	margin: 0 0 18px;
+	font-weight: 700;
+	padding: 0;
+	line-height: 1;
+	font-size: 14px;
+	letter-spacing: 0;
+	color: #3a3a3a;
+	font-family: Arial,sans-serif;
+}
+
+.footer-element a{
+	text-decoration: none;
+	font-size: 14px;
+	border-right: 0px;
+	color: #3a3a3a;
+	text-align: left;
+	line-height: 2;
+}
+.footer-element a:hover{
+	color: #f88000;
+}
+.footer-container{
+	width: 996px;
+	border-left: 4px solid #fff;
+	font-size: 12px;
+	line-height: 1.285;
+	margin: auto;
+}
+.footer-container a{
+	float: left;
+	line-height: 18px;
+	text-decoration: none;
+	color: #3a3a3a;
+	font-size: 12px;
+	font-family: Arial,sans-serif;
+	padding: 0px 10px;
+}
+.footer-container a:hover{
+	color: #f88000;
+}
+.whitespace{
+	width: 100%;
+	height: 80px;
+	margin-top: 10px;
+}
+.feedback{
+	font-size: 15px;
+	font-family: Arial;
+	line-height: 15px;
+	cursor: pointer;
+	transform: rotate(-90deg);
+	text-decoration: none;
+	display: block;
+	position: fixed;
+	background-color: #000000;
+	color: white;
+	border: 0px;
+	right: -35px;
+	top: 33%;
+	padding: 5px 14px 14px 14px;
+}
+.feedback a{
+	transform: rotate(-90deg) translateY(-5px);
+}
