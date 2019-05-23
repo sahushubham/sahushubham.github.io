@@ -412,8 +412,28 @@
     width: 100%;
 	color: #fff;
 	font-weight: 700;
+	background:#14bcef;
+}
+.box:hover{
+	background: #3FB0EB;
 }
 
+.box1{
+	line-height: 45px;
+	display: inline-block;
+    margin-top: 14px;
+    position: relative;
+    text-transform: none;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+	color: #fff;
+	font-weight: 700;
+	background-color :#f88000;
+}
+.box1:hover{
+	background: #f64f1c;
+}
 .footer-element{
 	font-size: 14px;
 	letter-spacing: 0;
