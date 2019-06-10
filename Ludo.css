@@ -1,0 +1,151 @@
+.body1{
+	width: 416px;
+	height: 410px;
+	margin: auto;
+	position: relative;
+	top: 50px;
+}
+
+.box{
+	float: left;
+	height: 50px;
+	width: 50px;
+	background: white;
+	border: 1px solid #555555;
+	margin: 0px;
+}
+.redBox
+{
+	float: left;
+	height: 50px;
+	width: 50px;
+	background: rgb(255, 0, 0);
+	border: 1px solid #555555;
+	margin: 0px;
+	opacity: .75;
+}
+.blueBox
+{
+	float: left;
+	height: 50px;
+	width: 50px;
+	background: rgb(0, 0, 255);
+	border: 1px solid #555555;
+	margin: 0px;
+	opacity: .75;
+}
+.box_right{
+	clear: right;
+	float: right;
+	height: 50px;
+	width: 50px;
+	background: white;
+	border: 1px solid #555555;
+	margin: 0px;
+}
+.box_left{
+	clear: left;
+	float: left;
+	height: 50px;
+	width: 50px;
+	background: white;
+	border: 1px solid #555555;
+	margin: 0px;
+}
+.box_bottom{
+	float: right;
+	height: 50px;
+	width: 50px;
+	background: white;
+	border: 1px solid #555555;
+	margin: 0px;
+}
+.box22{
+	position:relative;
+	 top:-104px; 
+	 clear: left;
+	 float: left;
+	height: 50px;
+	width: 50px;
+	background: white;
+	border: 1px solid #555555;
+	margin: 0px;
+}
+.box23{
+	float: left;
+	height: 50px;
+	width: 50px;
+	background: white;
+	border: 1px solid #555555;
+	margin: 0px;
+	position:relative; top:-208px; clear: left;
+}
+.box24{
+	float: left;
+	height: 50px;
+	width: 50px;
+	background: white;
+	border: 1px solid #555555;
+	margin: 0px;
+	position:relative; top:-312px; clear: left;
+}
+.box25{
+	float: left;
+	height: 50px;
+	width: 50px;
+	background: white;
+	border: 1px solid #555555;
+	margin: 0px;
+	position:relative; top:-416px; clear: left;
+}
+.box26{
+	float: left;
+	height: 50px;
+	width: 50px;
+	background: white;
+	border: 1px solid #555555;
+	margin: 0px;
+	position:relative; top:-520px; clear: left;
+}
+.box27{
+	float: left;
+	height: 50px;
+	width: 50px;
+	background: white;
+	border: 1px solid #555555;
+	margin: 0px;
+	position:relative; top:-624px; clear: left
+}
+.player
+{
+	height: 40px;
+	width: 160px;
+	border: 2px solid  rgb(187, 187, 187);
+	display: inline-block;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	top: 100px;
+	left: 120px;
+	padding: 10px 0px 0px 0px;
+}
+.playerb
+{
+	height: 40px;
+	width: 164px;
+	display: inline-block;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	top: 100px;
+	left: 120px;
+}
+.locker{
+	height: 50px;
+	width: 100px;
+	padding: 10px;
+	border: 2px solid rgb(187, 187, 187);
+	display: inline-block;
+	text-align: center;
+	line-height: 10px;
+}
