@@ -83,13 +83,18 @@ roll[0].onclick =function move_red()
                 count--;
             }
             if(cr1==-1&&cr2==-1)
-            add=0;       
+            add=0;
+            if(cr2===-1&&(cr1+add)>28)
+            {
+                add=0;
+                count++;
+            }       
         };
         p[cr2].onclick=function()
         { 
             if(cr1!==cr2&&(cr2+add)<=28)
             p[cr2].setAttribute("style","background:white");
-            if((cr2+add)<=28)
+            if((cr2+add)<=28) 
             {
                 cr2+=add;
                 p[cr2].setAttribute("style","background:red");
@@ -111,12 +116,18 @@ roll[0].onclick =function move_red()
                 if(temp!=6&&cb1!=cb2)
                 count--;
             }
+            if(cr1===-1&&(cr2+add)>28)
+            {
+                add=0;
+                count++;
+            }
         };
         if((cr1+add)>28&&(cr2+add)>28)
         {
             add=0;
             count++;
         }
+        
     }
     else
     {
