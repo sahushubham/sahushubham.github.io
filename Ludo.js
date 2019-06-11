@@ -58,7 +58,7 @@ roll[0].onclick =function move_red()
         }
         p[cr1].onclick=function()
         {
-            if(cr1!==cr2)
+            if(cr1!==cr2&&(cr1+add)<=28)
             p[cr1].setAttribute("style","background:white");
             if((cr1+add)<=28)
             {
@@ -87,7 +87,7 @@ roll[0].onclick =function move_red()
         };
         p[cr2].onclick=function()
         { 
-            if(cr1!==cr2)
+            if(cr1!==cr2&&(cr2+add)<=28)
             p[cr2].setAttribute("style","background:white");
             if((cr2+add)<=28)
             {
