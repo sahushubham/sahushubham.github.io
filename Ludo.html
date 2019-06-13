@@ -5,49 +5,56 @@
 		<link rel="stylesheet" type="text/css" href="Ludo.css">
 	</head>
 	<body>
-		<div class="body1">
-			<p class="box" ></p>
-			<p class="box">1</p>
-			<p class="box">2</p>
-			<p class="box">3</p>
-			<p class="box">4</p>
-			<p class="box">5</p>
-			<p class="box">6</p>
-			<p class="box">7</p>
-			<p class="box_right">8</p>
-			<p class="box_right">9</p>
-			<p class="box_right">10</p>
-			<p class="box_right">11</p>
-			<p class="box_right">12</p>
-			<p class="box_right">13</p>
-			<p class="box_right" >14</p>
-			<p class="box_bottom">15</p>
-			<p class="box_bottom">16</p>
-			<p class="box_bottom">17</p>
-			<p class="box_bottom">18</p>
-			<p class="box_bottom">19</p>
-			<p class="box_bottom">20</p>
-			<p class="box_bottom">21</p>
-			<p class="box22">22</p>
-			<p class="box23">23</p>
-			<p class="box24" >24</p>
-			<p class="box25" >25</p>
-			<p class="box26" >26</p>
-			<p class="box27" >27</p>
-			<p></p>
-			<div class="player">TURN: Player A</div>
-			<br>
-			<button class="playerb"  >ROLL !</button>>
-			<br>
-			<div class="player" style="font-size:30px;" >0</div>
-		</div>
-		<div class="locker" style="position:absolute; top: 50px; left: 300px; background: rgb(255, 63, 63);">Locker for A 
-			<br>
-			<h1>2A</h1>
-		</div>
-		<div class="locker" style="position:absolute; top: 400px; left: 900px; background: rgb(63, 63, 255);">Locker for B 
-			<br>
-			<h1>2B</h1>
+		<div class="body_outer">
+			<div class="locker" style="position: relative;top: 130px;left: 50px; background: rgb(255, 63, 63);">Locker for A 
+					<br>
+					<h1>2A</h1>
+			</div>
+			<input type="number" id="myNumber" style="height:20px; width:50px; position: relative; left:500px" value="6">
+			<button class="inputb" id="entry">Click Me for manual entry</button>
+			<div class="body1">
+				<p class="box" ></p>
+				<p class="box"></p>
+				<p class="box"></p>
+				<p class="box"></p>
+				<p class="box"></p>
+				<p class="box"></p>
+				<p class="box"></p>
+				<p class="box"></p>
+				<p class="box_right"></p>
+				<p class="box_right"></p>
+				<p class="box_right"></p>
+				<p class="box_right"></p>
+				<p class="box_right"></p>
+				<p class="box_right"></p>
+				<p class="box_right" ></p>
+				<p class="box_bottom"></p>
+				<p class="box_bottom"></p>
+				<p class="box_bottom"></p>
+				<p class="box_bottom"></p>
+				<p class="box_bottom"></p>
+				<p class="box_bottom"></p>
+				<p class="box_bottom"></p>
+				<p class="box22"></p>
+				<p class="box23"></p>
+				<p class="box24" ></p>
+				<p class="box25" ></p>
+				<p class="box26" ></p>
+				<p class="box27" ></p>
+				<p></p>
+				<p></p>
+				<div class="player">TURN: Player A</div>
+				<br>
+				<button class="playerb"  >ROLL !</button>
+				<br>
+				<div class="player" style="font-size:30px;" >0</div>
+			</div>
+			
+			<div class="locker" style="position: relative; top: -20px; left: 380px; background: rgb(63, 63, 255);">Locker for B 
+				<br>
+				<h1>2B</h1>
+			</div>
+
 		</div>
 		<script src="Ludo.js"></script>
 	</body>

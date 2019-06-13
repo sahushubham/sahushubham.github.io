@@ -149,3 +149,27 @@
 	text-align: center;
 	line-height: 10px;
 }
+.inputb{
+	height: 50px;
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	top: 0px;
+	left: 500px;
+
+}
+.begin{
+	height: 100px;
+	width: 100px;
+	color: white;
+	background-color: black;
+	display: inline-block;
+	font: 30px;
+	position: relative;
+	left: 300px;
+}
+.body_outer{
+	max-width: 800px;
+	margin: auto;
+}
